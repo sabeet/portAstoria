@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald');
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    font-family: 'Oswald', serif;
+}
+
+.landing-background{
+    background-image: url(backgrounds-hd-desktop-3196etkp3-1s-1680x1050.jpg);
+    height: 100vh;
+    width: 100%;
+}
