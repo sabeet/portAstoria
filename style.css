@@ -14,7 +14,22 @@ body{
     width: 100%;
 }
 
+.about-me-title{
+    font-size: 75px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
 .rounded-circle{
     height: 100%;
     width: 100%;
+}
+
+.about-description{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: blanchedalmond;
 }
