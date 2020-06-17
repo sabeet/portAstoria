@@ -1,0 +1,19 @@
+body{
+    background-color: #200066;
+}
+
+@font-face{
+    font-family: drip;
+    src: url(adrip1.ttf);
+}
+
+.welcome-to{
+    font-family: drip;
+    color: whitesmoke;
+    font-size: 6rem;
+}
+
+.home-welcome{
+    text-align: center;
+    margin: 0 auto;
+}
