@@ -1,19 +1,33 @@
-body{
+html, body{
+    height: 100%;
+    width: 100%;
     background-color: #200066;
-}
-
-@font-face{
-    font-family: drip;
-    src: url(adrip1.ttf);
-}
-
-.welcome-to{
-    font-family: drip;
     color: whitesmoke;
-    font-size: 6rem;
+
 }
 
-.home-welcome{
+#home{
+    background-color: #200066;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text{
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
-    margin: 0 auto;
+}
+
+.rounded-circle{
+    background: url(blackSquir.png);
+    height: 400px;
+    width:  400px;
+}
+
+#a:hover ~ #special-circle{
+    background: url(goat.jpg);
+    height: 400px;
+    width:  400px;
 }
