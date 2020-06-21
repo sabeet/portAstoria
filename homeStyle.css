@@ -14,6 +14,9 @@ html, body{
     height: 100%;
     width: 100%;
     background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
 
 .landing-text{
@@ -24,7 +27,7 @@ html, body{
 }
 
 .rounded-circle{
-    background: url(blackSquir.png);
+    background: url(SACMain.png);
     height: 400px;
     width:  400px;
 }
