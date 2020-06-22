@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Notable&display=swap');
 
 html, body{
     height: 100%;
@@ -23,7 +24,19 @@ html, body{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Krona One', sans-serif;
+}
+
+h1{
+
+    font-size: 15px;
+    letter-spacing: 13px;
+    font-family: 'Krona One', sans-serif;
+}
+
+h3{
+    font-size: 35px;
+    font-family: 'Notable', sans-serif;
 }
 
 .rounded-circle{
